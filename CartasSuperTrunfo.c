@@ -54,6 +54,8 @@ int main() {
   scanf(" %d",&pturistico);
   printf("\n");
 
+  // Área para cálculos das propriedades da carta 1
+
   // Cálculo da densidade populacional e PIB per capita para a carta 1
 
   densidadep = (float) populacao / area;
@@ -92,6 +94,8 @@ int main() {
   printf("Digite a quantidade de pontos turísticos; \n");
   scanf(" %d",&pturistico2);
   printf("\n");
+
+  // Área para cálculos das propriedades da carta 2
 
   // Cálculo da densidade populacional e PIB per capita para a carta 2
 
