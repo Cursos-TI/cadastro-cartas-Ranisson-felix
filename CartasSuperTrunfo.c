@@ -27,10 +27,10 @@ int main() {
   // Dados da carta 1
 
   printf("Escolha uma letra de 'A' a 'H', para representar o seu state: \n ");
-  scanf(" %c", &estado);
+  scanf(" %c",&estado);
 
   printf("Digite o código da carta, a letra do estado seguida de um número de 01 a 04 (ex: A01, B03) \n");
-  scanf(" %s", carta);
+  scanf(" %s",carta);
  
   printf("Digite o nome da cidade: \n");
   scanf(" %s", cidade);
@@ -54,7 +54,7 @@ int main() {
   // Dados da carta 2
 
   printf("Escolha uma letra de 'A' a 'H', para representar o seu 2º estado: \n");
-  scanf(" %c", &estado2);
+  scanf(" %c",&estado2);
 
   printf("Digite o código da 2º carta, a letra do estado seguida de um número de 01 a 04 (ex: A01, B03) \n");
   scanf(" %s",carta2);
@@ -96,7 +96,7 @@ int main() {
 
   // Leitura da carta 2
 
-  printf("Carta 2\n");
+  printf("Carta 2 \n");
   printf("Estado: %c\n",estado2);
   printf("Código: %s\n",carta2);
   printf("Nome da Cidade: %s\n",cidade2);
