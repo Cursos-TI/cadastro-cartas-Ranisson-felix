@@ -11,7 +11,7 @@ int main() {
   //variáveis carta 1
 
   int populacao,pturistico;
-  float area,pib,densidadep,pibpercapita;
+  float area,pib,densidadep,pibpercapita,superpoder1;
   char estado;
   char cidade[20],carta[20];
 
@@ -48,8 +48,15 @@ int main() {
   scanf(" %d",&pturistico);
   printf("\n");
 
+  // Cálculo da densidade populacional e PIB per capita para a carta 1
+
   densidadep = (float) populacao / area;
   pibpercapita = (float) (pib * 1000000000.0) / populacao;
+  
+  // Calculo do superpoder para a carta 1
+
+  superpoder1 = populacao + area + pib + pturistico + pibpercapita;
+
 
   // Dados da carta 2
 
@@ -74,6 +81,8 @@ int main() {
   printf("Digite a quantidade de pontos turísticos; \n");
   scanf(" %d",&pturistico2);
   printf("\n");
+
+  // Cálculo da densidade populacional e PIB per capita para a carta 2
 
   densidadep2 = (float) populacao2 / area2;
   pibpercapita2 = (float) (pib2 * 1000000000.0) / populacao2;
