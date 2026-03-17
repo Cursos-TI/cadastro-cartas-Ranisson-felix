@@ -32,7 +32,7 @@ int main() {
 
   // Dados da carta 1
 
-  printf("Escolha uma letra de 'A' a 'H', para representar o seu state: \n ");
+  printf("Escolha uma letra de 'A' a 'H', para representar o seu 1º estado: \n ");
   scanf(" %c",&estado);
 
   printf("Digite o código da carta, a letra do estado seguida de um número de 01 a 04 (ex: A01, B03) \n");
@@ -138,6 +138,7 @@ int main() {
   printf("Número de Pontos Turísticos: %d \n",pturistico2);
   printf("Densidade Populacional: %.2f hab/km² \n",densidadep2);
   printf("PIB per Capita: %.2f reais \n",pibpercapita2);
+  printf("\n"); 
 
   // comparação das cartas
 
@@ -160,6 +161,7 @@ int main() {
   printf("Densidade Populacional: %d \n", comparacao5);
   printf("PIB per Capita: %d \n", comparacao6);
   printf("Superpoder: %d",comparacao7);
+  printf("\n");
 
 return 0;
 } 
